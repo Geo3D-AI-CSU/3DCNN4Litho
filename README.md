@@ -1,8 +1,12 @@
 # 基于卷积神经网络的深部地层岩性预测
 
-基于Tensorflow2.70框架，参照经典的VGG框架设计了用于深部地层岩性预测的网络框架，以下为实验用到的数据、代码及环境说明。  
-配置好的环境（3DCNN）在Geo3D服务器的路径：` E:\python_location\envs\litho_predict`
-上传至github的文件为纯代码文件，另有一份包含代码和数据的文件储存在Geo3D服务器`E:\Xuzhanghao\CNN4Litho`文件中。
+岩石地层建模在矿产资源勘探和地质研究中起着至关重要的作用。在这项研究中，我们介绍了一种利用反转地球物理特性在深地下自动化伪岩石建模的新方法。我们提出了一种具有自适应矩估计 （3D Adam-CNN） 的三维卷积神经网络来实现这一目标。我们的模型采用 3D 地球物理特性作为训练的输入特征，同时重建浅层地下的 3D 地质模型以进行岩石学标记。
+模型基于Tensorflow2.70框架，参照经典的VGG框架设计了用于深部地层岩性预测的网络框架，以下为实验用到的数据、代码及环境说明。  
+
+论文链接：[Deep Subsurface Pseudo-Lithostratigraphic Modeling Based on Three-Dimensional Convolutional Neural Network (3D CNN) Using Inversed Geophysical Properties and Shallow Subsurface Geological Model](https://pubs.geoscienceworld.org/gsw/lithosphere/article/2024/1/lithosphere_2023_273/634861/Deep-Subsurface-Pseudo-Lithostratigraphic-Modeling "论文")
+
+***
+
 # 目录  
 - [文件介绍](#文件介绍)  
 - [安装](#安装)  
